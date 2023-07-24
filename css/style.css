@@ -1,0 +1,55 @@
+
+.navbar {
+  border-bottom: #b2ebf2 3px solid;
+  opacity: 0.8;
+}
+
+.navbar .icon {
+  height: 70px;
+}
+
+#home-section {
+  background: white;
+  width: auto;
+  padding-top: 5rem;
+}
+
+#home-section .img{
+  max-width: 60%;
+}
+
+#promotion-section {
+  background: #b2ebf2;
+  border-bottom: #ffc107 3px solid;
+}
+
+#about-us-section {
+  background: url(../images/about-us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+.darkOverlay {
+  position: absolute;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+#menu-section .menu-img{
+  background: url(../images/menu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#menu-section .hover:hover {
+  border: #ffc107 1px solid;
+}
+
+#contact-us-footer img {
+  width: 10rem;
+}
